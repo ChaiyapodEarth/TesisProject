@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 1
-  controlID: 163
+  controlID: 363
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 164
+  controlID: 364
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 101
+  controlID: 64
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: UnityConnectEditorWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -317,16 +317,16 @@ MonoBehaviour:
     y: 0
     width: 370
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 23}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
   - {fileID: 22}
   - {fileID: 23}
   - {fileID: 24}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -455,9 +455,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 57.432343, y: -6.635737, z: 39.6121}
+    m_Target: {x: 0.023413852, y: 0.026161652, z: -0.0010475703}
     speed: 2
-    m_Value: {x: 57.432343, y: -6.635737, z: 39.6121}
+    m_Value: {x: 0.023413852, y: 0.026161652, z: -0.0010475703}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -503,13 +503,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0008701282, y: 0.9754742, z: -0.22018518, w: -0.0038204503}
+    m_Target: {x: -0.09919092, y: 0.64183164, z: -0.084235236, w: -0.7557542}
     speed: 2
-    m_Value: {x: -0.0008701079, y: 0.9754514, z: -0.22018003, w: -0.003820361}
+    m_Value: {x: -0.09918862, y: 0.64181674, z: -0.08423328, w: -0.7557366}
   m_Size:
-    m_Target: 17.751
+    m_Target: 13.7005
     speed: 2
-    m_Value: 17.751
+    m_Value: 13.110526
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -696,20 +696,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: b8f8ffff6afbffffca4f00000251000060510000
+      m_SelectedIDs: 64faffff
+      m_LastClickedID: -1436
+      m_ExpandedIDs: 885cf4ffa2a6feffccf8ffff52faffff56faffff6afbffffb85000003e510000765100009c510000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Terrain
-        m_OriginalName: Terrain
+        m_Name: Emperor_angelfish_prefab
+        m_OriginalName: Emperor_angelfish_prefab
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 20480
+        m_UserData: -762582
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -759,22 +759,21 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 0
+    m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Underwater life deluxe/Prefabs/Animals
   m_ViewMode: 0
   m_StartGridSize: 51
-  m_LastFolders:
-  - Assets
+  m_LastFolders: []
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\User\Desktop\scuba\Scuba
+  m_LastProjectPath: F:\Tesis
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 9c540000
     m_LastClickedID: 21660
-    m_ExpandedIDs: 00000000f63a0000923b00009c5400009e540000a0540000a2540000a4540000a6540000a8540000aa540000ac540000ae540000b0540000b2540000b4540000b6540000b8540000ba540000bc540000
+    m_ExpandedIDs: 00000000e03a0000423b0000d6540000d8540000da540000dc540000de540000e0540000e2540000e4540000e6540000e8540000ea540000ec540000ee540000f0540000f2540000f4540000f6540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -802,21 +801,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000f63a0000923b00009c5400009e540000a0540000a2540000a4540000a6540000a8540000aa540000ae540000b0540000b2540000b4540000b6540000b85400002e55000054560000b6560000
+    m_ExpandedIDs: ffffffff00000000e03a0000423b0000d6540000d8540000da540000dc540000de540000e0540000e2540000e4540000e6540000e8540000ea540000ec540000ee540000f05400003855000096650000b68f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: addForce
+      m_OriginalName: addForce
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 129562
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 

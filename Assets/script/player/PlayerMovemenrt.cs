@@ -9,7 +9,7 @@ public class PlayerMovemenrt : MonoBehaviour
 
     [SerializeField]
     public float speed = 12f;
-    public float gravity = -1f;
+    public float gravity = 1f;
     public float up = 1f;
     public float down = 3f;
 
@@ -24,15 +24,13 @@ public class PlayerMovemenrt : MonoBehaviour
     public bool isBCD = true;
 
     Vector3 velocity;
-    bool isGrounded;
+    bool isGrounded;  
 
     void Update()
     {
-
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        //isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         moveMent();
         setGravity();
-
     }
 
     public static float maxPosition = -48.92733f;
@@ -50,11 +48,12 @@ public class PlayerMovemenrt : MonoBehaviour
         Vector3 move = transform.right * x + transform.forward * z;
         controller.Move(move * speed * Time.deltaTime);
         velocity.y += gravity * Time.deltaTime;
+
         controller.Move(velocity * Time.deltaTime);
 
         if (Input.GetKey(KeyCode.Keypad0))
         {
-            gravity += up;
+           gravity += up;
         }
 
         if (Input.GetKey(KeyCode.Keypad1))
@@ -80,7 +79,6 @@ public class PlayerMovemenrt : MonoBehaviour
         }
         if (!isGrounded && !isUnderWater)
         {
-            gravity = -5;
             isUnderWater = true;
         }
 

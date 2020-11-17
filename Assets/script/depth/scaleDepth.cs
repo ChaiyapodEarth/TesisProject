@@ -22,10 +22,14 @@ public class scaleDepth : MonoBehaviour
     
     void Update()
     {
-        depthPosition = camera.transform.position.y;
+        depthPosition = player.transform.position.y;
+
+        if (depthPosition > 0)
+            depthPosition = 0;
 
         if (depthPosition < 0) 
             depthPosition = (int)(-1 * (depthPosition));
+        
 
         depthText.text = depthPosition.ToString() + " meter";
     }

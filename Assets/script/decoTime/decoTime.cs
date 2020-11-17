@@ -33,7 +33,7 @@ public class decoTime : MonoBehaviour
 
     void Update()
     {
-        float position = camera.transform.position.y;
+        float position = player.transform.position.y;
         if (position < 0)
             position = -1 * (position);
 

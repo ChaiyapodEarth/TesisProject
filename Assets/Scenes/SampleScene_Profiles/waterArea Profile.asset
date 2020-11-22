@@ -33,10 +33,10 @@ MonoBehaviour:
     value: 1
   focusDistance:
     overrideState: 1
-    value: 2.5
+    value: 0.61
   aperture:
     overrideState: 1
-    value: 6.2
+    value: 32
   focalLength:
     overrideState: 1
     value: 50
@@ -147,7 +147,7 @@ MonoBehaviour:
     value: 100
   lift:
     overrideState: 1
-    value: {x: 0.7429478, y: 0.88000196, z: 1, w: 0}
+    value: {x: 0.8483784, y: 0.9059055, z: 1, w: 0}
   gamma:
     overrideState: 1
     value: {x: 0.5632854, y: 0.7445528, z: 1, w: 0}
